@@ -13,6 +13,8 @@ Create an area for coding in VSCode
 
 # GOAL #1 #
 - Write the 1st section of the code.
+- [] Added the feature to add items to the fridge
+- [] Added the feature to remove items to the fridge 
 
 # GOAL #2 #
 - Write the 2nd section of the code.
