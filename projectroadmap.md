@@ -28,4 +28,7 @@
 
 # Progress #3 #
 - [ ] Write the 3rd Section of the code.
+- [ ] Add a way for users to select what they want to do
+- [ ] Create simple greetings and farewells
+- [ ] Implement the json file/way to store users fridge
 - [ ] Double check code and search for improvement
