@@ -20,8 +20,11 @@
 - [x] Added the feature to remove items to the fridge 
 
 # Progress #2 #
-- [ ] Write the 2nd section of the code.
-- [ ] Figure out a way to retain food/items without it reseting each time
+- [x] Write the 2nd section of the code.
+- [x] Figure out a way to retain food/items without it reseting each time
+- [x] Create a way to view the fridge
+- [ ] Create a way to edit the items in the fridge
+- [ ] Create a way to generate a shopping list
 
 # Progress #3 #
 - [ ] Write the 3rd Section of the code.
