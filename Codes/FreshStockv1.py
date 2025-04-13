@@ -1,7 +1,15 @@
 # Code will start here: v1 
-
+import json
+import os
+file_name = "fridge_inventory.json"
 fridge = {}
 shopping_list = []
+
+if os.path.exists(file_name):
+    with open(file_name, 'r') as file:
+        fridge = json.load(file)
+else:
+    fridge = {}
 
 # Feature to add items to the fridge
 def add_item():
@@ -25,6 +33,7 @@ def remove_item():
     else:
         print(name + " is not in the fridge.")
 
+# Feature to view fridge content
 def view_fridge():
     if not fridge:
         print("The fridge is empty.")
@@ -33,6 +42,7 @@ def view_fridge():
         for name, quantity in fridge.items()L
             print(name + ": " + str(quantity))
 
+# Feature to edit items
 def edit_item():
     name = input("Enter the item you want to change: ")
     if name in fridge:
@@ -42,4 +52,7 @@ def edit_item():
     else:
         print(name + "does not exist in the fridge.")
 
-
+# Saving the fridge
+def save_fridge():
+    with open(file_name, 'w') as file:
+        json.dump(fridge, file)
