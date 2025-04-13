@@ -25,4 +25,21 @@ def remove_item():
     else:
         print(name + " is not in the fridge.")
 
-        
+def view_fridge():
+    if not fridge:
+        print("The fridge is empty.")
+    else:
+        print("Item in fridge:")
+        for name, quantity in fridge.items()L
+            print(name + ": " + str(quantity))
+
+def edit_item():
+    name = input("Enter the item you want to change: ")
+    if name in fridge:
+        new_qty = int(input("Enter the new quantity of this item: "))
+        fridge[name] = new_qty
+        print("You now have" + str(new_qty) + "of" + name)
+    else:
+        print(name + "does not exist in the fridge.")
+
+
