@@ -23,12 +23,12 @@
 - [x] Write the 2nd section of the code.
 - [x] Figure out a way to retain food/items without it reseting each time
 - [x] Create a way to view the fridge
-- [ ] Create a way to edit the items in the fridge
-- [ ] Create a way to generate a shopping list
+- [x] Create a way to edit the items in the fridge
+- [x] Create a way to generate a shopping list
 
 # Progress #3 #
 - [ ] Write the 3rd Section of the code.
-- [ ] Add a way for users to select what they want to do
+- [x] Add a way for users to select what they want to do
 - [ ] Create simple greetings and farewells
-- [ ] Implement the json file/way to store users fridge
+- [x] Implement the json file/way to store users fridge
 - [ ] Double check code and search for improvement

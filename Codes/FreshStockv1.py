@@ -52,7 +52,27 @@ def edit_item():
     else:
         print(name + "does not exist in the fridge.")
 
+# Feature to produce a shopping list
+def generate_shopping_list():
+    empty_items = []
+    for item, qty in fridge.items():
+        if qty == 0:
+            empty_items.append(item)
+
 # Saving the fridge
 def save_fridge():
     with open(file_name, 'w') as file:
         json.dump(fridge, file)
+
+# Selection menu
+def main():
+    while True:
+        print("\n--- FreshStock Menu ---")
+        print("1. Add item")
+        print("2. Remove item")
+        print("3. View fridge")
+        print("4. Edit item")
+        print("5. Show shopping list")
+        print("6. Exit")
+
+        choice = input("Choose an option: ")
