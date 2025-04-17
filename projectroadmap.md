@@ -10,7 +10,7 @@
 [x] Create an area for coding in VSCode
 [ ] Create presentation slides
 [ ] Schedule a date for presentation
-
+[x] Create a splash screen
 
 ## Progression Tree ##
 
