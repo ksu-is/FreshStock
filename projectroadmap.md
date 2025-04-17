@@ -27,7 +27,7 @@
 - [x] Create a way to generate a shopping list
 
 # Progress #3 #
-- [ ] Write the 3rd Section of the code.
+- [x] Write the 3rd Section of the code.
 - [x] Add a way for users to select what they want to do
 - [ ] Create simple greetings and farewells
 - [x] Implement the json file/way to store users fridge

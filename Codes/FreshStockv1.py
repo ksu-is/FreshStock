@@ -39,7 +39,7 @@ def view_fridge():
         print("The fridge is empty.")
     else:
         print("Item in fridge:")
-        for name, quantity in fridge.items()L
+        for name, quantity in fridge.items():
             print(name + ": " + str(quantity))
 
 # Feature to edit items
@@ -76,3 +76,21 @@ def main():
         print("6. Exit")
 
         choice = input("Choose an option: ")
+        if choice == '1':
+                add_item()
+        elif choice == '2':
+                remove_item()
+        elif choice == '3':
+                view_fridge()
+        elif choice == '4':
+                edit_item()
+        elif choice == '5':
+                generate_shopping_list()
+        elif choice == '6':
+            save_fridge()
+            print("Fridge saved. Goodbye!")
+            break
+        else:
+            print("Please choose a number from 1 to 6.")
+
+main()
