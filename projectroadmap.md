@@ -9,7 +9,7 @@
 [x] COMMIT to ROADMAP and README
 [x] Create an area for coding in VSCode
 [ ] Create presentation slides
-[ ] Schedule a date for presentation
+[x] Schedule a date for presentation
 [x] Create a splash screen
 
 ## Progression Tree ##
@@ -29,6 +29,6 @@
 # Progress #3 #
 - [x] Write the 3rd Section of the code.
 - [x] Add a way for users to select what they want to do
-- [ ] Create simple greetings and farewells
+- [x] Create simple greetings and farewells
 - [x] Implement the json file/way to store users fridge
-- [ ] Double check code and search for improvement
+- [x] Double check code and search for improvement
