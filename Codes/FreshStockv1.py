@@ -67,7 +67,8 @@ def save_fridge():
 # Selection menu
 def main():
     while True:
-        print("\n--- FreshStock Menu ---")
+        print("Welcome to FreshStock!")
+        print("\n--- Menu ---")
         print("1. Add item")
         print("2. Remove item")
         print("3. View fridge")
