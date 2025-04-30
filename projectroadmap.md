@@ -8,7 +8,7 @@
 [x] Create and populate both projectroadmap.md and README.md
 [x] COMMIT to ROADMAP and README
 [x] Create an area for coding in VSCode
-[ ] Create presentation slides
+[x] Create presentation slides
 [x] Schedule a date for presentation
 [x] Create a splash screen
 
